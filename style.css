@@ -1,0 +1,120 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  overflow: hidden;
+  padding: 20px 0;
+}
+
+/* Navbar */
+.navbar {
+  background: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.navbar .logo {
+  float: left;
+  margin-left: 20px;
+}
+
+.nav-links {
+  float: right;
+  list-style: none;
+  margin-right: 20px;
+}
+
+.nav-links li {
+  display: inline;
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Sections */
+.section {
+  padding: 40px 0;
+  background: #fff;
+  margin-bottom: 10px;
+}
+
+.section h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Profile Picture */
+.profile-pic {
+  display: block;
+  max-width: 200px;
+  width: 100%;
+  margin: 20px auto;
+  border-radius: 50%;
+}
+
+/* Projects */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.project {
+  background: #e2e2e2;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.project a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Contact Info */
+.contact-info {
+  list-style: none;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.contact-info li {
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Button */
+.btn {
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
